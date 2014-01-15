@@ -4,6 +4,18 @@ require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
+
+# Dependencies
+
+require "sass"
+
+# Config
+
+css_dir = "css"
+sass_dir = "sass"
+
+output_style = :expanded
+
 Bundler.require(:default, Rails.env)
 
 module Newbs
