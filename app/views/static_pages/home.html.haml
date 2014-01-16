@@ -1,13 +1,20 @@
 .container{:style => "background-color:#fff; width:100%; border-style:solid; border-border-bottom:thick solid #fff;"}
 	.row
-		.col-md-5
-			= image_tag "bribedphone.gif", :class => "img-responsive ", :style => "padding-top:0px; float: right;"
-		.col-md-6{:style => "padding-left:40px;"}
-			%h1{:style =>"color:#4da6ff; font-size:5.2em; line-height:1em; padding-top:140px;font-weight:normal; "} Bribery Happens
-			%h1{:style =>"color:#555; font-size:8em; line-height:1em; "} Be Prepared
-			%h2{:style =>"color:#888; font-size:1.5em; line-height:1em;"} Bribed for Android helps you know what the average bribe costs where ever you are. So when it happens, you don't pay more than you have to.    
-			= image_tag "Google-Play-Badge.png"	, :style=>"height:70px; margin:30px 0 0 0px;"
+		.col-xs-10.col-xs-offset-1.hidden-md.hidden-lg
+			%h2{:style =>"color:#4da6ff;text-align:center;"} Bribery Happens
+			%h1{:style =>"color:#555;text-align:center;"} Be Prepared
+			%p{:style =>"color:#999;text-align:center;"} Bribed for Android helps you know what the average bribe costs where ever you are. So when it happens, you don't pay more than you have to. 
+			.linkdss= link_to (image_tag 'android_button.jpg'), '#', :target => '_blank', :style=>" text-align: center;display: block;margin: 0 auto; padding:30px 0 30px;"
+	
 
+
+		.col-md-5.visible-md.visible-lg
+			= image_tag "bribedphone.gif", :class => "img-responsive ", :style => "padding-top:0px; float: right;"
+		.col-md-6.visible-md.visible-lg{:style => "padding-left:40px;"}
+			%h1{:style =>"color:#4da6ff; font-size:2.5em; line-height:1em; padding-top:140px;font-weight:normal; "} Bribery Happens
+			%h1{:style =>"color:#555; font-size:4em; line-height:1em; "} Be Prepared
+			%h2{:style =>"color:#888; font-size:1.5em; line-height:1em;"} Bribed for Android helps you know what the average bribe costs where ever you are. So when it happens, you don't pay more than you have to.    
+			.linkdiv{:style=>"margin:40px 0 30px 0px;"}= link_to (image_tag 'android_button.jpg'), '#', :target => '_blank'
 	
 
 
@@ -56,16 +63,16 @@
 				%a.btn.btn-default{href: "#", role: "button"} View details »
 		/ /.col-lg-4
 		.col-lg-4.center
-			= image_tag "140.png", :class => "img-circle img-responsive center"
-			%h2 Heading
-			%p Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.
+			= image_tag "joe.png", :class => "img-circle img-responsive center"
+			%h2 Joe Mellin
+			%p Joe is currently living in Stockholm and loves diving into design.  He is interested in how companies can help people.  He is currently working on a way to help people learn how emotionally grow.
 			%p
 				%a.btn.btn-default{href: "#", role: "button"} View details »
 		/ /.col-lg-4
 		.col-lg-4.center
-			= image_tag "140.png", :class => "img-circle img-responsive center"
-			%h2 Heading
-			%p Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
+			= image_tag "thuto.png", :class => "img-circle img-responsive center"
+			%h2 Thuto Paul Gaotingwe
+			%p Thuto is a cool, creative software developer/designer in Botswana; Gaborone. He is inspired by solving community/society problems through the development of relevant innovative software applications. He is currently working on a precision livestock farming app called Modisar. 
 			%p
 				%a.btn.btn-default{href: "#", role: "button"} View details »
 
