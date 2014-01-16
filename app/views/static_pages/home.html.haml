@@ -51,9 +51,11 @@
 			%p.lead Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
 		.col-md-5
 			= image_tag "500.png", :class => "featurette-image img-responsive"
-	%hr.featurette-divider/
-	/ /END THE FEATURETTES
-	/ Three columns of text below the carousel
+	%hr.featurette-divider{:style => "margin-bottom:10px;"}
+	.row{:style => "margin-bottom:30px;"}
+		.col-md-12
+			%h2{:style => "text-align:center"} Built By
+
 	.row
 		.col-lg-4.center
 			.center= image_tag "140.png", :class => "img-circle img-responsive center"
@@ -67,13 +69,23 @@
 			%h2 Joe Mellin
 			%p Joe is currently living in Stockholm and loves diving into design.  He is interested in how companies can help people.  He is currently working on a way to help people learn how emotionally grow.
 			%p
-				%a.btn.btn-default{href: "#", role: "button"} View details »
+				:plain
+					<a href="https://twitter.com/joemellin" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @joemellin</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 		/ /.col-lg-4
 		.col-lg-4.center
 			= image_tag "thuto.png", :class => "img-circle img-responsive center"
 			%h2 Thuto Paul Gaotingwe
 			%p Thuto is a cool, creative software developer/designer in Botswana; Gaborone. He is inspired by solving community/society problems through the development of relevant innovative software applications. He is currently working on a precision livestock farming app called Modisar. 
 			%p
-				%a.btn.btn-default{href: "#", role: "button"} View details »
-
-	/ FOOTER
+				:plain
+					<a href="https://twitter.com/ThutoPaul" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ThutoPaul</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	.row{:style => "margin-bottom:30px;"}
+		.col-md-12
+			%h2{:style => "text-align:center"} 
+				While On 
+				= link_to "Startup Bus Africa","http://africa.startupbus.com/", :style => "color:#fff"
+:plain
+	<div class="videoWrapper"><iframe width="100%" height=auto src="//www.youtube.com/embed/vvzPg-wxpYg?rel=0" frameborder="0" allowfullscreen></iframe></div>
+	
