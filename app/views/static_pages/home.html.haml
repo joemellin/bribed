@@ -33,7 +33,8 @@
 		.col-md-5
 			= image_tag "500.png", :class => "featurette-image img-responsive"
 			
-	%hr.featurette-divider/
+%hr.featurette-divider/
+.container.marketing{:style => "padding-top:0px;"}
 	.row.featurette
 		.col-md-5
 			= image_tag "500.png", :class => "featurette-image img-responsive"
@@ -42,7 +43,8 @@
 				Oh yeah, it's that good.
 				%span.text-muted See for yourself.
 			%p.lead Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-	%hr.featurette-divider/
+%hr.featurette-divider/
+.container.marketing{:style => "padding-top:0px;"}
 	.row.featurette
 		.col-md-7
 			%h2.featurette-heading
@@ -51,40 +53,45 @@
 			%p.lead Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
 		.col-md-5
 			= image_tag "500.png", :class => "featurette-image img-responsive"
-	%hr.featurette-divider{:style => "margin-bottom:10px;"}
+%hr.featurette-divider{:style => "margin-bottom:10px;"}
+.container.marketing{:style => "padding-top:0px;"}	
 	.row{:style => "margin-bottom:30px;"}
 		.col-md-12
-			%h2{:style => "text-align:center"} Built By
+			%h3{:style => "text-align:center"} Built By
 
 	.row
 		.col-lg-4.center
-			.center= image_tag "140.png", :class => "img-circle img-responsive center"
-			%h2 Heading
-			%p Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.
+			.center= image_tag "wilhelm.png", :class => "img-circle img-responsive center"
+			%h2 Wilhelm Caspar Oddo
 			%p
-				%a.btn.btn-default{href: "#", role: "button"} View details »
-		/ /.col-lg-4
+				:plain
+					<a href="https://twitter.com/WilhelmOddo" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @WilhelmOddo</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			%p Wilhelm  is the founder of NLab in Dar Es Salaam, Tanzania, at the moment he is working on his new startup called Academify for verifying academic documents. He is passionate about writing stories and keeping rabbits too.
+
 		.col-lg-4.center
 			= image_tag "joe.png", :class => "img-circle img-responsive center"
 			%h2 Joe Mellin
-			%p Joe is currently living in Stockholm and loves diving into design.  He is interested in how companies can help people.  He is currently working on a way to help people learn how emotionally grow.
 			%p
 				:plain
-					<a href="https://twitter.com/joemellin" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @joemellin</a>
+					<a href="https://twitter.com/JoeMellin" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @JoeMellin</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-		/ /.col-lg-4
+			%p Joe is currently living in Stockholm and loves diving into design.  He is interested in how companies can help people.  He is currently working on a way to help people learn how emotionally grow.
+			
 		.col-lg-4.center
 			= image_tag "thuto.png", :class => "img-circle img-responsive center"
 			%h2 Thuto Paul Gaotingwe
-			%p Thuto is a cool, creative software developer/designer in Botswana; Gaborone. He is inspired by solving community/society problems through the development of relevant innovative software applications. He is currently working on a precision livestock farming app called Modisar. 
 			%p
 				:plain
 					<a href="https://twitter.com/ThutoPaul" class="twitter-follow-button" data-show-count="false" data-size="large">Follow @ThutoPaul</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+			%p Thuto is a cool, creative software developer/designer in Botswana; Gaborone. He is inspired by solving community/society problems through the development of relevant innovative software applications. He is currently working on a precision livestock farming app called Modisar. 
+%hr.featurette-divider{:style => "margin-bottom:10px;"}
+.container.marketing{:style => "padding-top:0px;"}		
 	.row{:style => "margin-bottom:30px;"}
 		.col-md-12
-			%h2{:style => "text-align:center"} 
-				While On 
+			%h3{:style => "text-align:center"} 
+				Created During 
 				= link_to "Startup Bus Africa","http://africa.startupbus.com/", :style => "color:#fff"
 :plain
 	<div class="videoWrapper"><iframe width="100%" height=auto src="//www.youtube.com/embed/vvzPg-wxpYg?rel=0" frameborder="0" allowfullscreen></iframe></div>
