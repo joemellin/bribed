@@ -20,44 +20,43 @@
 
 	
 / Wrap the rest of the page in another container to center all the content.
-.container.marketing{:style => "padding-top:0px;"}
 
-	/ START THE FEATURETTES
+.container.marketing{:style => "padding-top:20px;"}		
+	.row{:style => "margin-bottom:0px;"}
+		.col-md-12
+			%h3{:style => "text-align:center;font-weight:normal;"} How it Works
 	
 	.row.featurette{:style => "padding-top:80px;"}
 		.col-md-7
-			%h2.featurette-heading
-				First featurette heading.
-				%span.text-muted It'll blow your mind.
-			%p.lead Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+			%h2.featurette-heading{:style => "color:#abcbfe;"}
+				You get pulled over while driving and you get asked for a
+				%span.text-muted{:style => "font-size:1.3em;color:#fff;"}   "little something."
 		.col-md-5
-			= image_tag "500.png", :class => "featurette-image img-responsive"
+			= image_tag "dollar.gif", :class => "featurette-image img-responsive img-circle"
 			
 %hr.featurette-divider/
 .container.marketing{:style => "padding-top:0px;"}
 	.row.featurette
 		.col-md-5
-			= image_tag "500.png", :class => "featurette-image img-responsive"
+			= image_tag "question.gif", :class => "featurette-image img-responsive img-circle"
 		.col-md-7
-			%h2.featurette-heading
-				Oh yeah, it's that good.
-				%span.text-muted See for yourself.
-			%p.lead Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
-%hr.featurette-divider/
+			%h2.featurette-heading{:style => "color:#abcbfe;"}
+				You know you need to pay a bribe, but how much?  To find out you just
+				%span.text-muted{:style => "font-size:1.3em;color:#fff;"} open the Bribed App.
+%hr.featurette-divider/			
 .container.marketing{:style => "padding-top:0px;"}
 	.row.featurette
 		.col-md-7
-			%h2.featurette-heading
-				And lastly, this one.
-				%span.text-muted Checkmate.
-			%p.lead Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.
+			%h2.featurette-heading{:style => "color:#abcbfe;"}
+				Then magically, you see the average cost of avoiding a ticket in your location.
+				%span.text-muted{:style => "font-size:1.3em;color:#fff;"} Knowledge is Power.
 		.col-md-5
-			= image_tag "500.png", :class => "featurette-image img-responsive"
+			= image_tag "happy.gif", :class => "featurette-image img-responsive img-circle"
 %hr.featurette-divider{:style => "margin-bottom:10px;"}
 .container.marketing{:style => "padding-top:0px;"}	
 	.row{:style => "margin-bottom:30px;"}
 		.col-md-12
-			%h3{:style => "text-align:center"} Built By
+			%h3{:style => "text-align:center;font-weight:normal;"} Built By
 
 	.row
 		.col-lg-4.center
@@ -70,7 +69,7 @@
 			%p Wilhelm  is the founder of NLab in Dar Es Salaam, Tanzania, at the moment he is working on his new startup called Academify for verifying academic documents. He is passionate about writing stories and keeping rabbits too.
 
 		.col-lg-4.center
-			= image_tag "joe.png", :class => "img-circle img-responsive center"
+			= image_tag "joe.gif", :class => "img-circle img-responsive center"
 			%h2 Joe Mellin
 			%p
 				:plain
@@ -90,7 +89,7 @@
 .container.marketing{:style => "padding-top:0px;"}		
 	.row{:style => "margin-bottom:20px;"}
 		.col-md-12
-			%h3{:style => "text-align:center"} 
+			%h3{:style => "text-align:center;font-weight:normal;"} 
 				Created During 
 				= link_to "Startup Bus Africa 2013","http://africa.startupbus.com/", :style => "color:#fff"
 :plain
